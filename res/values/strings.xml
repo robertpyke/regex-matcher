@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Regex Matcher</string>
+	<string name="app_description">Regex Matcher allows a user to check if an input line of text matches a user-defined regex (regular expression). Regex Matcher will show what matches were found against the regex, and what position the matches occurred at in your input text.</string>
+	<string name="version">1.0.3</string>
+	<string name="home_page">www.robertpyke.com</string>
+	<string name="email">developer.robert.j.pyke@gmail.com</string>
+	<string name="support_message">If you have any questions, suggestions, or bugs to report, send me an email.</string>
+    <string name="main_label">Main</string>
+    <string name="help_label">Regex Help</string>
+    <string name="info_label">Info</string>
+    
+    <string name="help_text">
+    
+    <b>Special Characters:</b>\n\n
+    \\\\ - Backslash (must be escaped)
+    
+    \n\n<b>Character Classes:</b>\n\n
+    [a-z] -    Any lower case letter\n
+    [A-Z] -    Any upper case letter\n
+    [^yc] -    Any character other than y or c\n
+    [0-9a-fA-F] -    Any single digit integer, or any character from a-f (lower-case and upper-case)
+    
+    \n\n<b>Predefined Character Classes</b>\n\n
+    . -    Any character\n
+    \\d -    A digit [0-9]\n
+    \\D -    Any character other than a digit [^0-9]\n
+    \\s -    A White-space character: space, tab, end-line, etc\n
+    \\S -    Any character other than a white-space character\n
+    \\w -    A word character [a-zA-Z_0-9]\n
+    \\W -    Any character other than a word character
+        
+    \n\n<b>Multiplicity</b>\n\n
+    X? - X, zero or one times\n 
+    X+ - X, one or more times\n
+    X* - X, zero or more times 
+    
+    \n\n<b>Regex Matcher</b> uses Java\'s Pattern class, full information on what regex is supported can be found at: http://java.sun.com/javase/6/docs/api/java/util/regex/Pattern.html
+    
+    </string>
+    
+</resources>
